@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FB97A765293DDDC000B29EA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97A764293DDDC000B29EA4 /* main.swift */; };
+		FB97A76C293DDF9700B29EA4 /* carProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97A76B293DDF9700B29EA4 /* carProtocol.swift */; };
+		FB97A76E293DF96A00B29EA4 /* tovarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97A76D293DF96A00B29EA4 /* tovarProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FB97A761293DDDC000B29EA4 /* HOMEWORK-2-6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HOMEWORK-2-6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB97A764293DDDC000B29EA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB97A76B293DDF9700B29EA4 /* carProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carProtocol.swift; sourceTree = "<group>"; };
+		FB97A76D293DF96A00B29EA4 /* tovarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tovarProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				FB97A763293DDDC000B29EA4 /* HOMEWORK-2-6 */,
-				FB97A762293DDDC000B29EA4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,12 +55,16 @@
 				FB97A761293DDDC000B29EA4 /* HOMEWORK-2-6 */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FB97A763293DDDC000B29EA4 /* HOMEWORK-2-6 */ = {
 			isa = PBXGroup;
 			children = (
+				FB97A762293DDDC000B29EA4 /* Products */,
 				FB97A764293DDDC000B29EA4 /* main.swift */,
+				FB97A76B293DDF9700B29EA4 /* carProtocol.swift */,
+				FB97A76D293DF96A00B29EA4 /* tovarProtocol.swift */,
 			);
 			path = "HOMEWORK-2-6";
 			sourceTree = "<group>";
@@ -119,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB97A76E293DF96A00B29EA4 /* tovarProtocol.swift in Sources */,
+				FB97A76C293DDF9700B29EA4 /* carProtocol.swift in Sources */,
 				FB97A765293DDDC000B29EA4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
